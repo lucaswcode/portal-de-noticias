@@ -24,6 +24,10 @@
     bottom: 0;
     padding: 24px;
 
+    &:has(.text-lg){ /*Verifica se tem uma class com aquele nome dentro do figcaption*/
+      padding: 12px;
+    }
+
     h2 {
       margin-top: 8px;
     }
