@@ -1,5 +1,6 @@
 section header{
   border: 1px solid var(--stroke-color);
+  border-inline: none;
   padding-block: 12px 24px;
   font: var(--text-span);
 
